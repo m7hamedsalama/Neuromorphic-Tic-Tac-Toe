@@ -1,3 +1,4 @@
+<img width="800" height="450" alt="AI_1-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/c5c88639-1f7c-474c-8880-1a1f4dd8bc49" />
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00ffcc&height=200&section=header&text=Neuromorphic%20Tic-Tac-Toe&fontSize=50&fontColor=ffffff&animation=fadeIn" width="100%">
   
@@ -86,6 +87,8 @@ Launch the Vision Studio:
 
 Bash
 streamlit run app.py
+<img width="800" height="450" alt="AI_1-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/38b34e15-52aa-4bf5-be95-cc28318100dd" />
+
 
 
    
