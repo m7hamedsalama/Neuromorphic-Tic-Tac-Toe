@@ -24,7 +24,8 @@ The system acts as a live laboratory, visualizing the AI's decision-making proce
 
 > **Note for the Developer:** Record a 5-second video of you playing the game, convert it to a GIF (using ezgif.com), and replace the link below!
   <div align="center">
-  <img src="AI_1-ezgif.com-video-to-gif-converter.gif" alt="Neuromorphic Tic-Tac-Toe Demo" width="700" style="border-radius: 15px;">
+  <img src="https://github.com/user-attachments/assets/f5d90b3e-3c73-4c33-8397-948cffeee26eا
+    " alt="Neuromorphic Tic-Tac-Toe Demo" width="700" style="border-radius: 15px;">
   <p><i>Real-time hand tracking and AI decision visualization during gameplay.</i></p>
 </div>
  
@@ -85,4 +86,6 @@ Launch the Vision Studio:
 
 Bash
 streamlit run app.py
+
+
    
