@@ -23,15 +23,13 @@ The system acts as a live laboratory, visualizing the AI's decision-making proce
 ## 🎮 Live Demonstration (Touchless Gameplay)
 
 > **Note for the Developer:** Record a 5-second video of you playing the game, convert it to a GIF (using ezgif.com), and replace the link below!
-
-<div align="center">
-  <img src="![![![Uploading AI_1-ezgif.com-video-to-gif-converter.gif…]()]]
-
-
+ <div align="center">
+  <img src="![Uploading AI_1-ezgif.com-video-to-gif-converter.gif…]()
 " alt="Gameplay Demo Placeholder" width="600" style="border-radius: 15px;">
- 
   <p><i>The system calculates the Euclidean Distance between the index and thumb to register a 'Pinch' click with zero latency.</i></p>
 </div>
+ 
+  
 
 ---
 
