@@ -152,7 +152,7 @@ with tab_vision:
                 cv2.rectangle(overlay, (0, h//2-70), (w, h//2+70), (10, 25, 47), -1)
                 cv2.addWeighted(overlay, 0.8, frame, 0.2, 0, frame)
                 
-                # 🚨 هنا بتظهر الرسائل زي ما طلبت بالظبط
+                # هنا بتظهر الرسائل 
                 if st.session_state.ai.check_winner(st.session_state.ai.board, user_symbol):
                     cv2.putText(frame, "PLAYER WINS!", (w//2-200, h//2+20), cv2.FONT_HERSHEY_DUPLEX, 2, (100, 255, 218), 4)
                     game_status_alert.success("🎉 مبروك! أنا كسبت (You Won)")
