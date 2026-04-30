@@ -53,8 +53,8 @@ with st.sidebar:
         st.session_state.ai = TicTacToeAI()
         st.session_state.game_over = False
         st.session_state.stats_history = []
+        st.session_state.waiting_for_ai = (starter == "Agent") 
         st.rerun()
-
 # Dashboard
 st.title("🕹️ Neuromorphic Tic-Tac-Toe")
 st.caption("Powered by Minimax & MediaPipe Vision & Deep Q-Learning & Random")
@@ -87,7 +87,8 @@ with tab_vision:
     # 🚨 مكان رسالة الفوز/الخسارة الجديدة
     game_status_alert = st.empty()
     frame_placeholder = st.empty()
-    
+    if st.session_state.ai.board.count(' ') == 9 and not st.session_state.game_over:
+        st.session_state.waiting_for_ai = (starter == "Agent")
     if cam_on:
         cap = cv2.VideoCapture(0)
         cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
